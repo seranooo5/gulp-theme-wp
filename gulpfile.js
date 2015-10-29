@@ -24,7 +24,7 @@ gulp.task('sass', function () {
 var browserSync = require('browser-sync').create();
 gulp.task('browser-sync', function() {
     browserSync.init(["css/*.css", "js/*.js"], {
-          proxy: "top.dev",
+          proxy: "",
     });
 });
 
